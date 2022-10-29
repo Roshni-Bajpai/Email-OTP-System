@@ -1,0 +1,28 @@
+
+<head>
+   <link rel="stylesheet" href="/css/index.css">
+   <title> OTP Verification</title>
+</head>
+
+<div class="container">
+      <div class="box">     
+            <% if (data.isOtpValidated) { %>
+               <h1>Logged in! Hurray</h1>
+               <p>Secret Email is <%= data.secretEmail %> </p>
+              <div class="btn-container1">
+               <form action="/logout" method="post">
+                           <button class="logout" type="submit">Logout</button>
+                     </form>
+              </div>
+            <% } %>
+            
+            <% if (!data.isOtpValidated) { %>
+               <h1 class="title">Please login to see your secret email</h1>
+            <!-- <a href="/otp">Request OTP</a> -->
+            <hr class="mt-4">
+            <div class="btn-container">
+            <button class="login" onclick="location.href = '/otp'; return false;">Login</button>
+            <% } %>
+            </div>
+         </div> 
+</div>
