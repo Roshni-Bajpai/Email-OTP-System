@@ -2,14 +2,14 @@
 
 Setup instructions:
 
-  a. Install the folder using git or download the zipped folder.
-  b. Unzip the project folder.
-  c. Open the project folder in Code Editor like Visual Studio Code.
-  d. Open the terminal.
-  e. Run the command npm i.
-  f. After installing dependencies, exit the terminal.
-  g. Open the terminal and run the command "npm run dev".
-  h. Now, go the browser and write "localhost:5000" in the address bar. Hit Enter.
+  1. Install the folder using git or download the zipped folder.
+  2. Unzip the project folder.
+  3. Open the project folder in Code Editor like Visual Studio Code.
+  4. Open the terminal.
+  5. Run the command npm i.
+  6. After installing dependencies, exit the terminal.
+  7. Open the terminal and run the command "npm run dev".
+  8. Now, go the browser and write "localhost:5000" in the address bar. Hit Enter.
   You can see the application.
   
 Dependencies:
