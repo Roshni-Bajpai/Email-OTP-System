@@ -14,8 +14,8 @@ Setup instructions:
   
 Dependencies:
 
-  -node
-  -npm
+  1. node
+  2. npm
 
 How to try?
 
